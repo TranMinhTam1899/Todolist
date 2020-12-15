@@ -1,0 +1,35 @@
+body {
+    font-family: 'Segoe UI';
+}
+.form-control {
+    height: 35px;
+}
+
+.form-control:focus, .btn:focus {
+    outline: 0;
+    box-shadow: 0 0 13px 1px rgb(63 149 241);
+}
+.btn {
+    height: 35px;
+    line-height: 0;
+}
+.panel-heading{
+    display: flex;
+    justify-content: space-between;
+}
+.panel-title{
+    font-size: 18px;
+}
+.btn:focus{
+    box-shadow: 0;
+}
+
+.active_sort::after{
+    content: "\f00c";
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    float: right;
+}
